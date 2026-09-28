@@ -1,0 +1,752 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole page */
+body {
+    background-color: #fffaf0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    width: 97%;
+    height: 160px;
+
+    margin: 15px auto;
+
+    border: 1px solid #aaa;
+
+    display: flex;
+}
+
+
+/* Logo section */
+.logo-section {
+    width: 30%;
+    border-right: 1px solid #aaa;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Logo */
+.logo-section img {
+    width: 60px;
+    height: 60px;
+
+    object-fit: contain;
+
+    margin-bottom: 20px;
+}
+
+
+/* Website built text */
+.logo-section p {
+    font-size: 16px;
+}
+
+
+/* Navigation */
+nav {
+    width: 70%;
+
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 25px;
+
+    padding-right: 30px;
+}
+
+
+/* Navigation links */
+nav a {
+    color: #551a8b;
+
+    font-size: 16px;
+
+    text-decoration: underline;
+}
+
+
+/* Navigation separator */
+nav span {
+    color: #111;
+}
+
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+    text-align: center;
+
+    margin-top: 65px;
+}
+
+
+/* Small heading */
+.small-heading {
+    font-size: 16px;
+
+    margin-bottom: 22px;
+}
+
+
+/* Main heading */
+.hero h1 {
+    font-size: 36px;
+
+    color: #b46b28;
+
+    margin-bottom: 20px;
+}
+
+
+/* Hero paragraphs */
+.hero p:not(.small-heading) {
+    font-size: 17px;
+
+    line-height: 2.1;
+}
+
+
+/* Hero links */
+.hero-links {
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+}
+
+
+/* Hero links style */
+.hero-links a {
+    color: #551a8b;
+
+    font-size: 16px;
+
+    text-decoration: underline;
+}
+
+
+/* ---------------- STATISTICS ---------------- */
+
+.stats {
+    width: 610px;
+
+    height: 170px;
+
+    margin: 45px auto;
+
+    display: flex;
+}
+
+
+/* Each box */
+.stat-box {
+    width: 33.33%;
+
+    border: 1px solid #aaa;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+/* Numbers */
+.stat-box strong {
+    font-size: 17px;
+
+    font-weight: normal;
+
+    margin-bottom: 20px;
+}
+
+
+/* Infinity symbol */
+.stat-box .infinity {
+    color: #4285f4;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+/* Box text */
+.stat-box p {
+    font-size: 16px;
+}
+
+
+/* ---------------- HORIZONTAL LINE ---------------- */
+
+hr {
+    width: 80%;
+
+    margin: 45px auto 60px;
+
+    border: none;
+
+    border-top: 1px solid #aaa;
+}
+
+
+/* ---------------- ABOUT COURSE ---------------- */
+
+.about {
+    text-align: center;
+}
+
+
+.about h2 {
+    font-size: 18px;
+
+    font-weight: normal;
+}
+
+
+.about h2 span {
+    font-size: 14px;
+}
+
+
+.about p {
+    margin-top: 30px;
+
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+    color: #111;
+}
+
+/* Main section */
+.about-course {
+    padding: 30px 8%;
+    text-align: center;
+}
+
+/* About the course */
+.course-heading {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* What is HTML */
+.what-html {
+    display: inline-block;
+    background-color: yellow;
+    font-size: 40px;
+    margin: 0 0 80px;
+    padding: 0 5px;
+}
+
+/* Main HTML container */
+.html-container {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    min-height: 525px;
+    margin: auto;
+    border: 1px solid #aaa;
+}
+
+/* Left side */
+.html-icons {
+    width: 20%;
+    border-right: 1px solid #aaa;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.globe {
+    font-size: 45px;
+}
+
+.code-icon {
+    font-size: 38px;
+    font-weight: bold;
+    color: #b56525;
+}
+
+/* Right side */
+.html-content {
+    width: 80%;
+    padding: 55px 50px;
+}
+
+/* Heading */
+.html-content h2 {
+    font-size: 42px;
+    color: #b56525;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/* Paragraphs */
+.html-content p {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+/* Topics container */
+.topics {
+    display: flex;
+    margin-top: 25px;
+    border: 1px solid #aaa;
+}
+
+/* Individual topic */
+.topic {
+    flex: 1;
+    min-height: 105px;
+    border-right: 1px solid #aaa;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    text-align: left;
+}
+
+.topic:last-child {
+    border-right: none;
+}
+
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole page */
+body {
+    background-color: #fdf9ef;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+
+/* Projects section */
+.projects {
+    width: 90%;
+    margin: auto;
+    padding: 5px 0 30px;
+}
+
+
+/* Main heading */
+.projects h1 {
+    text-align: center;
+    color: #a55e25;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+
+/* Introduction text */
+.intro {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Project cards container */
+.project-container {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1.5fr 1fr;
+
+    gap: 18px;
+
+    border: 1px solid #eee;
+
+    padding: 17px;
+}
+
+
+/* Individual project card */
+.project-card {
+    border: 1px solid #aaa;
+
+    min-height: 440px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+/* Emoji/icon */
+.icon {
+    font-size: 35px;
+
+    height: 170px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+/* Horizontal line */
+.project-card hr {
+    width: 90%;
+
+    border: none;
+
+    border-top: 1px solid #aaa;
+
+    margin-bottom: 20px;
+}
+
+
+/* Project number */
+.project-card h2 {
+    font-size: 21px;
+
+    font-weight: normal;
+
+    margin-bottom: 18px;
+}
+
+
+/* Project title */
+.project-card h3 {
+    font-size: 21px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Tags */
+.project-card p {
+    font-size: 18px;
+
+    line-height: 1.35;
+
+    margin-bottom: 20px;
+
+    max-width: 350px;
+}
+
+
+/* View project link */
+.project-card a {
+    color: #542080;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+
+    margin-top: auto;
+}
+
+
+/* Hover effect */
+.project-card a:hover {
+    color: #a55e25;
+}
+
+
+/* Bottom section */
+.bottom-section {
+    border-top: 1px solid #aaa;
+
+    text-align: center;
+
+    padding: 25px 10px 35px;
+
+    margin-top: 5px;
+}
+
+
+/* Bottom heading */
+.bottom-section h1 {
+    color: #a55e25;
+
+    font-size: 38px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Bottom paragraph */
+.bottom-section p {
+    font-size: 19px;
+
+    line-height: 1.4;
+
+    margin-bottom: 25px;
+}
+
+
+/* Explore link */
+.explore {
+    color: #542080;
+
+    font-size: 20px;
+
+    text-decoration: underline;
+}
+
+
+/* ------------------------- */
+/* Responsive Design */
+/* ------------------------- */
+
+@media (max-width: 900px) {
+
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .projects {
+        width: 95%;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: 400px;
+    }
+
+    .bottom-section h1 {
+        font-size: 28px;
+    }
+
+}
+
+/* Base styles matching the warm/cream background */
+body {
+  background-color: #fdfbf7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  color: #333333;
+}
+
+/* Horizontal Dividers */
+.divider {
+  border: none;
+  border-top: 1px solid #dcd6cd;
+  width: 80%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+/* Top Link */
+.top-link-container {
+  margin-bottom: 10px;
+}
+
+.top-link {
+  color: #5c1b81; /* Purple link color */
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/* Section Title with Inline Lines */
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.section-title .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #333333;
+}
+
+.section-title .title-text {
+  padding: 0 15px;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #222222;
+}
+
+/* Main Heading */
+.main-heading {
+  color: #c0632d; /* Terracotta / Brownish-orange color */
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 20px 10px 10px 10px;
+}
+
+.sub-heading {
+  font-size: 1.1rem;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+/* Card Box */
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  border: 1px solid #d3cfc7;
+  width: 100%;
+  max-width: 800px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card-heading {
+  color: #c0632d;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+.card-link {
+  color: #5c1b81;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+/* Base Page Styling */
+body {
+  background-color: #fdfbf7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  color: #333333;
+}
+
+/* Section Divider Header */
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 30px auto 20px auto;
+}
+
+.section-title .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #333333;
+}
+
+.section-title .title-text {
+  padding: 0 12px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #222222;
+}
+
+/* Section Headings */
+.main-heading {
+  color: #c0632d; /* Terracotta / Brownish-orange color */
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sub-heading {
+  font-size: 1.05rem;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+/* Map Wrapper */
+.map-container {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 0 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.map-container iframe {
+  width: 100%;
+  border-radius: 4px;
+}
